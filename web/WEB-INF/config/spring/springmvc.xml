@@ -1,0 +1,42 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:aop="http://www.springframework.org/schema/aop"
+	   xmlns:tx="http://www.springframework.org/schema/tx"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		http://www.springframework.org/schema/mvc
+		http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-3.2.xsd
+		http://www.springframework.org/schema/aop
+		http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+		http://www.springframework.org/schema/tx
+		http://www.springframework.org/schema/tx/spring-tx-3.2.xsd ">
+
+	<!--
+    配置处理器映射器和处理器适配器
+    使用<mvc:annotation-drvier/>配置注解映射器和注解适配器
+    -->
+	<mvc:annotation-driven/>
+
+    <!--
+    配置处理器
+      使用<context:component-sacn/>组件扫描器自动扫描包中标记为@Controller的注解类，
+      注意：多个包中间使用半角逗号分隔
+      要求：base-package对应的包中应该是controller包
+    -->
+    <context:component-scan base-package="cn.michael.controller"/>
+
+	<!--
+	配置视图解析器
+		要求：
+		1、配置解析JSP的视图解析器，默认使用JSTL，因此classpath下需要有JSTL的包
+		2、根据前缀和后缀，在WEB-INF目录下要有pages目录，其中存放jsp文件
+	-->
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+		<property name="prefix" value="/WEB-INF/pages/"/>
+		<property name="suffix" value=".jsp"/>
+	</bean>
+</beans>

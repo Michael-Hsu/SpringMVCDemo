@@ -1,0 +1,64 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SpringMVCDemo:war exploded">
+    <output-path>$PROJECT_DIR$/../SpringMVCDemo/out/artifacts/SpringMVCDemo_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SpringMVCDemo/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpringMVCDemo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/JSTL/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/JSTL/standard.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/aopalliance-1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-tx-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-aop-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-jms-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-orm-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-oxm-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-web-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-core-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-jdbc-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-test-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-beans-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-webmvc-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-aspects-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-context-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-messaging-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-websocket-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-expression-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-instrument-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-webmvc-portlet-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-context-support-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Spring4.3.9/spring-instrument-tomcat-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/el-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/jasper.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/jsp-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/catalina.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/ecj-4.6.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/jasper-el.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/jaspic-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/tomcat-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/tomcat-jni.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/catalina-ha.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/servlet-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/tomcat-dbcp.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/tomcat-jdbc.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/tomcat-util.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/catalina-ant.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/tomcat-coyote.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/websocket-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/tomcat-i18n-es.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/tomcat-i18n-fr.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/tomcat-i18n-ja.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/annotations-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/catalina-tribes.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/tomcat-util-scan.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/tomcat-websocket.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../SpringMVCDemo/lib/Tomcat8.5.16/catalina-storeconfig.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
